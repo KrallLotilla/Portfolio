@@ -1,38 +1,18 @@
-
-
-
-<p>maths works!</p>
-
-<!-- maths.component.html -->
-<!-- <div>
-  <h2>Calculator</h2>
-  <input type="number" [(ngModel)]="num1">
-  <select [(ngModel)]="operator">
-    <option value="+">+</option>
-    <option value="-">-</option>
-    <option value="*">*</option>
-    <option value="/">/</option>
-  </select>
-  <input type="number" [(ngModel)]="num2">
-  <button (click)="calculate()">Calculate</button>
-  <p *ngIf="result">Result: {{ result }}</p>
-</div> -->
-
-
-
 <div class="container-fluid">
-
+<!-- "container-fluid," which is a Bootstrap class. It indicates that the content within it should occupy
+  the full width of the viewport, stretching from one end of the screen to the other, regardless of the
+  device size. -->
   <div class="jumbotron col-sm-4 p-2 m-0 bg-inverse">
-
+<!-- jumbotron: This is a Bootstrap class that creates a large, prominent container for showcasing key
+  content. It typically adds padding and a background color to draw attention to the content inside it. -->
     <h1 class="text-center">Angular Calculator</h1>
 
-    //Displays the User Input
     <div class="input-group input-group-sm col-sm-12 m-0 p-0">
       <div class="col-sm-12 form-control text-lg-right" type="text">{{input}}</div>
     </div>
 
-    //Displays the Results
-    <div class="input-group input-group-sm col-sm-12 m-0 p-0">
+ Results
+    <div class="input-group  input-group-sm display-result col-sm-12 m-0 p-0" style="background-color: grey !important;">
       <div class="form-control text-sm-right" type="text">{{result}}</div>
     </div>
 
@@ -67,3 +47,4 @@
     </div>
 
   </div>
+

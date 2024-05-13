@@ -4,20 +4,26 @@
             font-family: Arial, sans-serif;
         }
 
+
+        .navbar{position: absolute; top: 0; left: 0; right: 0; height: 50px; }
+
         .navbar {
             overflow: hidden;
             background-color: #333;
+            padding-left: 14%;
             // background: linear-gradient(135deg, #FFA500, #FF6347);
         }
 
         .navbar a {
-            float: left;
+            float: right;
             display: block;
             color: white;
             text-align: center;
             padding: 14px 20px;
+            width: 160px;
             text-decoration: none;
                    background: linear-gradient(135deg, #FFA500, #FF6347);
+
         }
 
         .navbar a:hover {
@@ -29,3 +35,20 @@
             background-color: #555;
             color: white;
         }
+
+.sidenav{position: absolute; top: 50px; bottom: 0; left: 0; width: 15%; background-color: #333;}
+
+.sidenav a {
+      padding: 14px 20px;
+      text-decoration: none;
+      color: white; /* Text color */
+      display: block;
+        background: linear-gradient(135deg, #FFA500, #FF6347);
+    }
+
+    /* Change the color of links on hover */
+    .sidenav a:hover {
+      color: #007bff;
+    }
+
+    .mainbody{position: absolute; left: 70px; top: 40px;}

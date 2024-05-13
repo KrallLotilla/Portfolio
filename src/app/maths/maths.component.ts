@@ -1,17 +1,5 @@
-// import { Component } from '@angular/core';
+import { ActivatedRoute } from '@angular/router'; //for conditional rendering
 
-// @Component({
-//   selector: 'app-maths',
-//   templateUrl: './maths.component.html',
-//   styleUrl: './maths.component.scss'
-// })
-// export class MathsComponent {
-
-// }
-
-// calculator.component.ts
-
-// maths.component.ts
 import { Component } from '@angular/core';
 
 @Component({
@@ -21,36 +9,7 @@ import { Component } from '@angular/core';
 })
 
 
-// Example code for the MathsComponent class
 
-// export class MathsComponent {
-//   num1: number | undefined;
-//   num2: number | undefined;
-//   operator: string | undefined;
-//   result: number | null = null;
-
-//   // Define the calculate function
-//   calculate() {
-//     if (this.num1 !== undefined && this.num2 !== undefined && this.operator !== undefined) {
-//       switch (this.operator) {
-//         case '+':
-//           this.result = this.num1 + this.num2;
-//           break;
-//         case '-':
-//           this.result = this.num1 - this.num2;
-//           break;
-//         case '*':
-//           this.result = this.num1 * this.num2;
-//           break;
-//         case '/':
-//           this.result = this.num1 / this.num2;
-//           break;
-//         default:
-//           this.result = null;
-//       }
-//     }
-//   }
-// }
 
 export class MathsComponent {
 
@@ -150,3 +109,4 @@ export class MathsComponent {
   }
 
 }
+

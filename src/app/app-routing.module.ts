@@ -5,12 +5,14 @@ import { ProjectsComponent } from './projects/projects.component';
 import { MathsComponent } from './maths/maths.component';
 import { ChessComponent } from './chess/chess.component';
 import { YoutubeViewerComponent } from './youtube-viewer/youtube-viewer.component';
+import { ToDoListComponent } from './to-do-list/to-do-list.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'maths', component: MathsComponent },
   { path: 'chess', component: ChessComponent },
-  {path: 'youtube-viewer', component: YoutubeViewerComponent},
+  { path: 'youtube-viewer', component: YoutubeViewerComponent },
+  {path: 'to-do-list', component: ToDoListComponent},
   { path: 'projects', component: ProjectsComponent }
 ];
 

@@ -11,6 +11,7 @@ import { YoutubeViewerComponent } from './youtube-viewer/youtube-viewer.componen
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { FormsModule } from '@angular/forms';
+import { ToDoListComponent } from './to-do-list/to-do-list.component';
 
 
 
